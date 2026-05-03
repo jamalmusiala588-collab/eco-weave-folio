@@ -32,11 +32,15 @@ export const Route = createRootRoute({
       { title: "Raktima Sengupta — Biotech & Sustainable Innovation" },
       { name: "description", content: "Portfolio of Raktima Sengupta — B.Tech Biotechnology, sustainable engineering and digital innovation projects." },
       { name: "author", content: "Raktima Sengupta" },
-      { property: "og:title", content: "Raktima Sengupta — Biotech Portfolio" },
-      { property: "og:description", content: "Sustainable engineering, bioplastics, and digital agriculture innovation." },
+      { property: "og:title", content: "Raktima Sengupta — Biotech & Sustainable Innovation" },
+      { property: "og:description", content: "Portfolio of Raktima Sengupta — B.Tech Biotechnology, sustainable engineering and digital innovation projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Raktima Sengupta — Biotech & Sustainable Innovation" },
+      { name: "twitter:description", content: "Portfolio of Raktima Sengupta — B.Tech Biotechnology, sustainable engineering and digital innovation projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/193bcc1a-2e3b-49bc-a422-05115d7b7ad9/id-preview-3c5a57f5--b619dc62-6275-4798-8c06-27a5bdbe1a56.lovable.app-1777835695874.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/193bcc1a-2e3b-49bc-a422-05115d7b7ad9/id-preview-3c5a57f5--b619dc62-6275-4798-8c06-27a5bdbe1a56.lovable.app-1777835695874.png" },
     ],
     links: [
       {
