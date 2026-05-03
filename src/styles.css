@@ -152,15 +152,15 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: var(--font-display);
+    font-family: var(--font-sans);
     background-image: var(--gradient-radial);
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
+  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.03em; font-weight: 500; }
 
-  ::selection { background: oklch(0.86 0.22 135 / 40%); color: var(--foreground); }
+  ::selection { background: oklch(0.78 0.18 320 / 45%); color: var(--foreground); }
 }
 
 @layer utilities {
@@ -181,9 +181,9 @@
     background-size: 48px 48px;
   }
   .glass {
-    background: oklch(0.20 0.025 165 / 60%);
-    backdrop-filter: blur(14px);
-    border: 1px solid oklch(0.86 0.22 135 / 15%);
+    background: oklch(0.18 0.03 270 / 55%);
+    backdrop-filter: blur(18px);
+    border: 1px solid oklch(0.82 0.16 195 / 18%);
   }
 }
 
