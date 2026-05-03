@@ -27,7 +27,7 @@ export function Footer() {
               <div className="text-sm">+91 9932738157</div>
             </div>
           </a>
-          <a href="https://linkedin.com/in/raktima-sengupta" target="_blank" rel="noreferrer" className="group flex items-center gap-3 rounded-2xl border border-border bg-background/40 p-4 text-left transition-all hover:border-primary hover:shadow-glow">
+          <a href="https://www.linkedin.com/in/raktima-sengupta-5ab957380/" target="_blank" rel="noreferrer" className="group flex items-center gap-3 rounded-2xl border border-border bg-background/40 p-4 text-left transition-all hover:border-primary hover:shadow-glow">
             <Linkedin className="h-5 w-5 text-primary" />
             <div>
               <div className="text-[10px] font-mono uppercase tracking-widest text-muted-foreground">LinkedIn</div>

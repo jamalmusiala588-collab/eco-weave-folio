@@ -5,7 +5,7 @@ import { MoleculeBackground } from "./MoleculeBackground";
 const contacts = [
   { icon: Phone, label: "+91 9932738157", href: "tel:+919932738157" },
   { icon: Mail, label: "raktimasengupta7@email.com", href: "mailto:raktimasengupta7@email.com" },
-  { icon: Linkedin, label: "linkedin.com/in/raktima-sengupta", href: "https://linkedin.com/in/raktima-sengupta" },
+  { icon: Linkedin, label: "linkedin.com/in/raktima-sengupta", href: "https://www.linkedin.com/in/raktima-sengupta-5ab957380/" },
   { icon: Github, label: "github.com/Raktimajinniepoint", href: "https://github.com/Raktimajinniepoint" },
 ];
 
