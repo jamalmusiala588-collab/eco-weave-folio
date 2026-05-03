@@ -5,6 +5,9 @@ import { About } from "@/components/portfolio/About";
 import { Projects } from "@/components/portfolio/Projects";
 import { Conferences } from "@/components/portfolio/Conferences";
 import { Footer } from "@/components/portfolio/Footer";
+import { CursorGlow } from "@/components/portfolio/CursorGlow";
+import { Marquee } from "@/components/portfolio/Marquee";
+import { Stats } from "@/components/portfolio/Stats";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -13,9 +16,12 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div id="top" className="relative min-h-screen overflow-hidden">
+      <CursorGlow />
       <Nav />
       <Hero />
+      <Marquee />
       <div id="about"><About /></div>
+      <Stats />
       <Projects />
       <div id="community"><Conferences /></div>
       <Footer />
