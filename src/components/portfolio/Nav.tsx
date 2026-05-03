@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 
 const links = [
   { href: "#about", label: "About" },
@@ -11,6 +11,8 @@ export function Nav() {
   const { scrollY } = useScroll();
   const blur = useTransform(scrollY, [0, 200], [0, 14]);
   const bg = useTransform(scrollY, [0, 200], ["oklch(0.16 0.02 160 / 0)", "oklch(0.16 0.02 160 / 0.7)"]);
+  const { scrollYProgress } = useScroll();
+  const progress = useSpring(scrollYProgress, { stiffness: 120, damping: 30 });
 
   return (
     <motion.header
@@ -40,6 +42,10 @@ export function Nav() {
           Let's talk
         </a>
       </div>
+      <motion.div
+        style={{ scaleX: progress }}
+        className="h-px origin-left bg-gradient-bio"
+      />
     </motion.header>
   );
 }
